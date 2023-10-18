@@ -6,7 +6,7 @@ public class OkJavaGoInHome {
 
 	public static void main(String[] args) {
 		
-		String id = "JAVA APT 507";
+		String id = "Ipark 101";
 		
 		// Elevator call 
 		Elevator myElevator = new Elevator(id);
