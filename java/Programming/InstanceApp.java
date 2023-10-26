@@ -7,6 +7,7 @@ public class InstanceApp {
 
 //		PrintWriter = class
 //		write = method
+//		new PrintWriter : 인스턴스 생
 		
 		PrintWriter p1 = new PrintWriter("result1.txt");
 		p1.write("Hello 1");
@@ -16,7 +17,18 @@ public class InstanceApp {
 		p2.write("Hello 2");
 		p2.close();
 		
-		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+//		PrintWriter.write("result1.txt", "Hello 1");
+		
 		
 	}
 
