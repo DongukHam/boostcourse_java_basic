@@ -4,5 +4,6 @@
 	<classpathentry kind="src" path="Data_and_operation"/>
 	<classpathentry kind="src" path="HelloWorld"/>
 	<classpathentry kind="src" path="Programming"/>
+	<classpathentry kind="src" path="Exercise_AppGenerate"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
