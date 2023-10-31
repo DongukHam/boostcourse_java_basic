@@ -2,7 +2,7 @@ package AppGenerate;
 
 import javax.swing.JOptionPane;
 
-public class AccountingApp {
+public class AccountingIFUnder10000App {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,10 +17,11 @@ public class AccountingApp {
 		double Total = valueOfSupply + VAT;
 		double Expense = valueOfSupply * expenseRate;
 		double Income = valueOfSupply - Expense;
-
-		double Dividend1 = Income * 0.5;
-		double Dividend2 = Income * 0.3;
-		double Dividend3 = Income * 0.2;
+		
+		
+		double Dividend1 = Income * 1;
+		double Dividend2 = Income * 0;
+		double Dividend3 = Income * 0;
 		
 		
 		// refactor -> extract local variable

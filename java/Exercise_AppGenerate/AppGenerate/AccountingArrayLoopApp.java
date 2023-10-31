@@ -2,7 +2,7 @@ package AppGenerate;
 
 import javax.swing.JOptionPane;
 
-public class AccountingApp {
+public class AccountingArrayLoopApp {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -17,11 +17,8 @@ public class AccountingApp {
 		double Total = valueOfSupply + VAT;
 		double Expense = valueOfSupply * expenseRate;
 		double Income = valueOfSupply - Expense;
-
-		double Dividend1 = Income * 0.5;
-		double Dividend2 = Income * 0.3;
-		double Dividend3 = Income * 0.2;
-		
+				
+	
 		
 		// refactor -> extract local variable
 		
@@ -34,9 +31,25 @@ public class AccountingApp {
 		System.out.println("Expense: "+ Expense);
 		System.out.println("Income: "+ Income);
 		
-		System.out.println("Dividend: "+ Dividend1);
-		System.out.println("Dividend: "+ Dividend2);
-		System.out.println("Dividend: "+ Dividend3);
+		double[] DividendRates = new double[3];
+		DividendRates[0] = 0.5;
+		DividendRates[1] = 0.3;
+		DividendRates[2] = 0.2;
+		
+//		double Dividend1 = Income * DividendRates[0];
+//		double Dividend2 = Income * DividendRates[1];
+//		double Dividend3 = Income * DividendRates[2];
+		
+		int i = 0;
+		while(i < DividendRates.length) {
+			System.out.println("Dividend " + (i + 1) + " : " + (Income*DividendRates[i]));
+			i = i + 1;
+		}
+		
+		
+//		System.out.println("Dividend 1: "+ Dividend1);
+//		System.out.println("Dividend 2: "+ Dividend2);
+//		System.out.println("Dividend 3: "+ Dividend3);
 
 	}
 
