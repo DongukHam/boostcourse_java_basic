@@ -2,7 +2,7 @@ package AppGenerate;
 
 class Accounting {
 //	public String value;
-	public double valueOfSupply;
+	public static double valueOfSupply;
 	public double vatRate;
 	public double expenseRate;
 	public void print() {
@@ -11,7 +11,6 @@ class Accounting {
 		System.out.println("VAT: "+ getVAT());
 		System.out.println("Total : " + getTotal());
 		
-
 		System.out.println("Expense: "+ getExpense());
 		System.out.println("Income: "+ getIncome());
 		
